@@ -22,7 +22,7 @@ import times
 import requests
 import flickr_api
 
-config = json.load(open('./painladen.config'))
+config = json.load(open('./config.json'))
 
 TAG = 'philMeta'
 API_KEY = config['flickr_api_key']
